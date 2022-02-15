@@ -1,0 +1,15 @@
+{
+  "0 info pnpm:global": "Nothing to stop. No server is running for the store at /Users/jerry/.pnpm-store/v3",
+  "1 debug pnpm:scope": {
+    "selected": 1
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+    "err": {
+      "name": "pnpm",
+      "message": "This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npmjs.org/\"}. The current configuration is {\"default\":\"https://registry.npm.taobao.org/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".",
+      "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+      "stack": "pnpm: This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npmjs.org/\"}. The current configuration is {\"default\":\"https://registry.npm.taobao.org/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".\n    at validateModules (/Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:91114:15)\n    at async Object.getContext [as default] (/Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:90986:28)\n    at async Object.mutateModules (/Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:113670:19)\n    at async Object.handler [as default] (/Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:124126:35)\n    at async /Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:133912:20\n    at async run (/Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:133887:34)\n    at async runPnpm (/Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:134098:5)\n    at async /Users/jerry/.fnm/node-versions/v14.18.0/installation/pnpm-global/5/node_modules/.pnpm/pnpm@6.17.1/node_modules/pnpm/dist/pnpm.cjs:134090:7"
+    }
+  }
+}
